@@ -1,0 +1,5 @@
+0: "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03167/opgs/edr/fcam/FLB_678658068EDR_F0891992FHAZ00337M_.JPG",
+1: "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03167/opgs/edr/fcam/FRB_678656836EDR_F0891992FHAZ00208M_.JPG",
+2: "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03167/opgs/edr/fcam/FRB_678651269EDR_F0891992FHAZ00337M_.JPG",
+3: "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03167/opgs/edr/fcam/FLB_678650647EDR_F0891992FHAZ00200M_.JPG",
+4: "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/03167/opgs/edr/fcam/FLB_678656753EDR_S0891992FHAZ00214M_.JPG"
