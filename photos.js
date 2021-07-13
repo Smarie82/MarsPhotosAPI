@@ -1,4 +1,6 @@
-const baseURL = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/latest_photos?api_key=0C11ZfycTILeBrJ6lrdb3jEy5WAN7hWysisFtKOa&earth_date=2021-7-4&camera=fhaz";
+const baseURL = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=0C11ZfycTILeBrJ6lrdb3jEy5WAN7hWysisFtKOa";
+
+//api key > 0C11ZfycTILeBrJ6lrdb3jEy5WAN7hWysisFtKOa
 
 const roverOne = document.querySelector('section');
 const firstImg = document.querySelector('.list-group-item-one');
@@ -20,23 +22,23 @@ function displayImage(marsRover) {
 
     let imgOne = document.createElement('img');
     imgOne.className = 'list-group-item-one';
-    imgOne.src = marsRover.latest_photos[0].img_src;
+    imgOne.src = marsRover.photos[0].img_src;
 
     let imgTwo = document.createElement('img');
     imgTwo.className = 'list-group-item-two';
-    imgTwo.src = marsRover.latest_photos[3].img_src;
+    imgTwo.src = marsRover.photos[150].img_src;
     
     let imgThree = document.createElement('img');
     imgThree.className = 'list-group-item-three';
-    imgThree.src = marsRover.latest_photos[10].img_src;
+    imgThree.src = marsRover.photos[250].img_src;
 
     let imgFour = document.createElement('img');
     imgFour.className = 'list-group-item-four';
-    imgFour.src = marsRover.latest_photos[24].img_src;
+    imgFour.src = marsRover.photos[750].img_src;
 
     let imgFive = document.createElement('img');
     imgFive.className = 'list-group-item-five';
-    imgFive.src = marsRover.latest_photos[31].img_src;
+    imgFive.src = marsRover.photos[850].img_src;
     
 
     firstImg.appendChild(imgOne);
