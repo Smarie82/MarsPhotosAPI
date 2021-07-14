@@ -34,7 +34,7 @@ function displayImage(marsRover) {
 
     let imgFour = document.createElement('img');
     imgFour.className = 'list-group-item-four';
-    imgFour.src = marsRover.photos[750].img_src;
+    imgFour.src = marsRover.photos[846].img_src;
 
     let imgFive = document.createElement('img');
     imgFive.className = 'list-group-item-five';
